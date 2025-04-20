@@ -1,0 +1,595 @@
+@relation 'SAMPLE A-weka.filters.unsupervised.attribute.StringToNominal-Rlast-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1'
+
+@attribute 'Project Scope Complexity' {Low,Medium,'High '}
+@attribute 'Technical Feasibility' {Challenging,Feasible,Unfeasible}
+@attribute 'Financial Feasibility' {Feasible,Unfeasible,Challenging}
+@attribute 'Contract Terms' {Favorable,Neutral,Unfavorable}
+@attribute 'Project Timeline Months' {'24 - 36 Months','12 - 24 Months','6 - 12 Months','Above  48 Months','36 - 48 Months','Less than 6  Months'}
+@attribute 'Relevant Experience' {Yes,No}
+@attribute 'Internal Resources Available' {Yes,No}
+@attribute 'Regulatory Issues' {Minor,None,Major}
+@attribute 'Risk Level' {Low,Medium,High}
+@attribute 'Market Demand' {High,Medium,Low}
+@attribute 'Strategic Alignment' {High,Medium,Low}
+@attribute 'Long Term Impact' {High,Low,Medium}
+@attribute 'Initial Go NoGo Decision' {Go,NoGo}
+
+@data
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,High,High,High,Go
+Low,Challenging,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Minor,Medium,High,Medium,Low,Go
+Low,Feasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'Above  48 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Unfeasible,Favorable,'36 - 48 Months',No,Yes,Minor,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Favorable,'36 - 48 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,Major,Medium,High,High,Medium,Go
+Medium,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,High,Low,Medium,Go
+Medium,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Unfeasible,Favorable,'36 - 48 Months',No,Yes,Minor,Medium,High,High,Medium,Go
+Medium,Challenging,Unfeasible,Favorable,'36 - 48 Months',No,Yes,None,Medium,High,Medium,High,Go
+'High ',Feasible,Feasible,Neutral,'36 - 48 Months',No,Yes,None,Low,High,High,High,Go
+Medium,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Medium,High,Low,High,Go
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',No,Yes,None,Low,High,High,Medium,Go
+'High ',Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+'High ',Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Medium,High,High,High,Go
+Medium,Feasible,Feasible,Neutral,'Above  48 Months',No,No,Minor,Medium,High,Medium,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Minor,Medium,High,Medium,Medium,Go
+Medium,Feasible,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Medium,Feasible,Challenging,Favorable,'Above  48 Months',No,Yes,Minor,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'Above  48 Months',Yes,No,Minor,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'Above  48 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Favorable,'Above  48 Months',Yes,Yes,Major,Low,High,Medium,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Major,Low,High,Medium,Low,Go
+Low,Challenging,Challenging,Favorable,'Above  48 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Favorable,'Above  48 Months',Yes,Yes,Minor,Medium,High,Medium,Low,Go
+Medium,Challenging,Feasible,Favorable,'Above  48 Months',Yes,Yes,None,Medium,High,Medium,Low,Go
+Low,Feasible,Feasible,Favorable,'36 - 48 Months',Yes,Yes,Minor,Low,High,Medium,High,Go
+Medium,Challenging,Challenging,Favorable,'36 - 48 Months',No,Yes,None,Medium,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Medium,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Medium,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,Medium,Go
+Medium,Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Major,Medium,High,High,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,High,High,Low,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Major,Low,High,High,Low,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,High,Low,Low,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,High,Medium,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,High,Medium,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,None,Low,High,High,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,High,Medium,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Major,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,Low,Medium,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,Low,High,Go
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Low,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Medium,High,High,High,Go
+Low,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,Major,Low,High,Medium,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Challenging,Challenging,Neutral,'36 - 48 Months',Yes,Yes,None,Low,High,High,Low,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,No,Minor,Medium,High,Low,Low,Go
+Low,Challenging,Unfeasible,Favorable,'36 - 48 Months',No,Yes,None,Low,High,Medium,High,Go
+Low,Challenging,Feasible,Favorable,'Above  48 Months',Yes,Yes,None,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Unfeasible,Favorable,'36 - 48 Months',No,Yes,None,Low,High,High,High,Go
+Low,Feasible,Unfeasible,Favorable,'36 - 48 Months',No,Yes,None,Low,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Low,High,High,High,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Low,High,High,High,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,No,None,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'Above  48 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Low,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Challenging,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Low,Challenging,Feasible,Favorable,'36 - 48 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,Medium,High,Go
+Low,Challenging,Feasible,Favorable,'36 - 48 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Low,High,Medium,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Low,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Medium,High,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,Minor,Medium,High,Medium,Low,Go
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,High,Medium,Low,Go
+Medium,Challenging,Feasible,Neutral,'36 - 48 Months',Yes,Yes,Minor,Low,High,Medium,High,Go
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,High,Medium,High,Go
+Medium,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,Minor,Low,High,High,High,Go
+Medium,Challenging,Feasible,Neutral,'Less than 6  Months',Yes,Yes,Minor,Medium,High,Medium,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Low,High,High,Low,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Low,High,Medium,High,Go
+Low,Feasible,Feasible,Neutral,'Less than 6  Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Low,High,Low,Medium,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Low,High,Low,Low,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Low,High,Low,Low,Go
+Low,Challenging,Feasible,Neutral,'Above  48 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,High,High,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,High,High,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Low,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,High,High,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Medium,Challenging,Feasible,Favorable,'Less than 6  Months',Yes,Yes,None,Low,High,High,High,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,Medium,High,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,High,Go
+Medium,Challenging,Feasible,Favorable,'36 - 48 Months',Yes,Yes,None,Low,High,High,Low,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Challenging,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Medium,Challenging,Feasible,Neutral,'Less than 6  Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,High,Go
+Low,Challenging,Feasible,Neutral,'Less than 6  Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,Medium,High,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Low,High,Medium,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,Low,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,Medium,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,Low,Medium,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Low,High,Medium,Low,Go
+Low,Feasible,Feasible,Neutral,'Above  48 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Low,Medium,Go
+Low,Feasible,Feasible,Neutral,'36 - 48 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,High,Low,High,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,No,None,Low,Medium,Low,Medium,Go
+Low,Unfeasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,Low,High,Low,Go
+Low,Challenging,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Minor,High,Low,High,Medium,Go
+'High ',Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,No,Major,Medium,Low,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,Medium,Medium,Medium,Medium,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,High,Low,High,NoGo
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+Medium,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Major,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Major,High,Low,Medium,Medium,NoGo
+Low,Feasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Minor,Medium,High,Medium,High,Go
+Low,Unfeasible,Feasible,Favorable,'6 - 12 Months',No,Yes,None,High,Medium,High,Medium,Go
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,Yes,Major,Medium,Low,Medium,Low,NoGo
+Medium,Unfeasible,Challenging,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,High,Medium,Go
+Low,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,Low,Medium,Low,Go
+Medium,Challenging,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+'High ',Feasible,Feasible,Favorable,'Less than 6  Months',Yes,Yes,Minor,Low,Low,Low,Medium,Go
+Low,Unfeasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Low,Medium,Low,High,Go
+Low,Unfeasible,Feasible,Favorable,'6 - 12 Months',No,Yes,Minor,Medium,High,High,Medium,Go
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,Medium,Low,Medium,Go
+'High ',Unfeasible,Feasible,Unfavorable,'24 - 36 Months',No,No,Major,Medium,Medium,Medium,Low,NoGo
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,Low,Medium,High,Go
+Low,Feasible,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,Low,High,High,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,None,High,Medium,High,High,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Major,High,Medium,Medium,Medium,NoGo
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Low,Medium,Go
+'High ',Unfeasible,Feasible,Neutral,'Less than 6  Months',Yes,Yes,Minor,Medium,Low,High,Low,Go
+Medium,Challenging,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,Medium,Low,Low,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Major,Medium,Medium,Medium,Medium,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Challenging,Challenging,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,Medium,High,Go
+Low,Challenging,Challenging,Neutral,'12 - 24 Months',Yes,Yes,Minor,High,Low,Medium,Low,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,Medium,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Major,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'Less than 6  Months',Yes,No,Major,Medium,Low,Medium,Low,NoGo
+'High ',Challenging,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Major,Medium,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,Medium,Low,Low,Medium,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Medium,Low,Low,Low,Go
+Medium,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Major,High,Low,High,Low,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Feasible,Unfeasible,Unfavorable,'Less than 6  Months',No,Yes,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Major,High,Medium,Medium,Medium,NoGo
+'High ',Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,Low,Medium,Low,Go
+Medium,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,High,Low,High,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Major,High,Medium,Medium,Low,Go
+Medium,Challenging,Challenging,Neutral,'12 - 24 Months',No,Yes,Major,Medium,Low,High,Low,Go
+'High ',Challenging,Unfeasible,Neutral,'36 - 48 Months',No,No,Major,Medium,Medium,Low,High,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'Less than 6  Months',No,No,Minor,High,Medium,Low,Medium,NoGo
+'High ',Challenging,Feasible,Neutral,'Less than 6  Months',Yes,Yes,Major,Medium,Medium,High,High,Go
+'High ',Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+'High ',Unfeasible,Feasible,Neutral,'Less than 6  Months',Yes,Yes,None,Medium,Low,Medium,Low,Go
+'High ',Unfeasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Major,Low,High,High,High,Go
+'High ',Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,Medium,High,High,Go
+'High ',Unfeasible,Feasible,Neutral,'Less than 6  Months',No,No,Minor,Medium,Low,Medium,Low,NoGo
+Medium,Unfeasible,Feasible,Neutral,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Low,Medium,Low,Medium,Go
+'High ',Challenging,Feasible,Neutral,'36 - 48 Months',No,No,None,Medium,Low,High,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'36 - 48 Months',No,Yes,Major,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,No,Major,High,Medium,Medium,Medium,NoGo
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Medium,Low,Go
+Medium,Challenging,Feasible,Neutral,'36 - 48 Months',No,No,Minor,High,Medium,Low,Medium,NoGo
+'High ',Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,High,High,Go
+'High ',Feasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Medium,Medium,Low,Low,Go
+'High ',Challenging,Feasible,Neutral,'6 - 12 Months',No,Yes,Minor,Medium,Medium,High,High,Go
+Medium,Feasible,Feasible,Neutral,'Less than 6  Months',No,Yes,None,High,Medium,High,High,Go
+'High ',Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,Low,Low,Low,NoGo
+'High ',Unfeasible,Feasible,Neutral,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'Less than 6  Months',Yes,No,Major,Medium,Medium,Medium,Low,NoGo
+'High ',Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,Medium,Low,High,Go
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',No,No,Minor,Medium,Low,Low,High,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,No,Major,Medium,Medium,Low,Medium,NoGo
+'High ',Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Minor,High,Medium,High,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+'High ',Unfeasible,Feasible,Neutral,'12 - 24 Months',No,No,None,High,Low,High,High,NoGo
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,No,Major,Medium,Low,Low,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',No,Yes,Minor,High,Low,High,Medium,Go
+Medium,Unfeasible,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Major,High,Medium,Medium,Low,NoGo
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'24 - 36 Months',Yes,No,Minor,Medium,High,High,Medium,Go
+Low,Unfeasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,Medium,High,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Minor,Medium,Medium,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,Medium,Medium,High,Go
+Low,Unfeasible,Feasible,Favorable,'6 - 12 Months',No,Yes,Major,Medium,Low,High,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,No,Major,High,Low,High,Medium,NoGo
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Low,Low,Medium,Low,Go
+'High ',Unfeasible,Unfeasible,Neutral,'Less than 6  Months',No,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Low,Medium,Go
+Medium,Challenging,Challenging,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,Low,Medium,Medium,Go
+'High ',Challenging,Challenging,Favorable,'12 - 24 Months',No,Yes,Minor,High,High,High,Medium,Go
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Major,Medium,Low,Low,Low,NoGo
+Medium,Challenging,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Low,Go
+Medium,Unfeasible,Unfeasible,Neutral,'12 - 24 Months',No,Yes,None,Medium,Low,Medium,High,NoGo
+'High ',Challenging,Feasible,Neutral,'Less than 6  Months',No,Yes,Major,Medium,Medium,High,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,Yes,Minor,High,Low,Medium,Medium,NoGo
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,Medium,Low,Low,Go
+'High ',Unfeasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,Medium,Medium,Low,Go
+'High ',Challenging,Feasible,Neutral,'Less than 6  Months',No,Yes,Major,Medium,Low,Low,Medium,NoGo
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Major,Medium,Low,High,High,Go
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+Medium,Feasible,Challenging,Favorable,'24 - 36 Months',No,Yes,Minor,Low,Medium,High,High,Go
+Medium,Challenging,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Major,Medium,Medium,Low,High,Go
+'High ',Unfeasible,Unfeasible,Neutral,'12 - 24 Months',Yes,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+Medium,Unfeasible,Feasible,Unfavorable,'Above  48 Months',Yes,Yes,Minor,Low,Medium,Low,High,Go
+Medium,Challenging,Challenging,Unfavorable,'12 - 24 Months',No,Yes,None,Medium,Low,Medium,High,Go
+'High ',Feasible,Challenging,Unfavorable,'12 - 24 Months',No,Yes,None,High,Low,Medium,High,Go
+'High ',Challenging,Challenging,Unfavorable,'24 - 36 Months',No,Yes,Minor,Medium,Medium,High,Low,Go
+'High ',Challenging,Feasible,Unfavorable,'6 - 12 Months',Yes,Yes,None,Low,Medium,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Major,Low,Low,Medium,Medium,Go
+'High ',Challenging,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,Low,Low,Medium,Go
+'High ',Feasible,Challenging,Favorable,'24 - 36 Months',No,Yes,Minor,Medium,High,High,Low,Go
+Medium,Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,Medium,High,Low,Medium,NoGo
+'High ',Feasible,Challenging,Favorable,'24 - 36 Months',No,Yes,Major,High,Medium,Medium,High,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,Yes,Major,High,Low,Low,Low,NoGo
+'High ',Feasible,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,High,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Major,High,Medium,Low,Low,NoGo
+Low,Challenging,Feasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,Medium,Low,Medium,Low,NoGo
+'High ',Unfeasible,Challenging,Favorable,'12 - 24 Months',No,Yes,Major,High,High,High,High,Go
+Low,Challenging,Challenging,Favorable,'12 - 24 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Challenging,Challenging,Favorable,'Above  48 Months',Yes,Yes,Minor,Low,High,High,Low,Go
+Low,Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,Yes,Major,Medium,Low,Low,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Low,NoGo
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Minor,Medium,Medium,Medium,Medium,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Minor,Medium,High,High,High,Go
+Low,Challenging,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Low,Low,Low,Go
+Low,Feasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Major,High,Medium,Medium,High,Go
+Low,Challenging,Challenging,Favorable,'24 - 36 Months',Yes,Yes,None,High,High,High,Low,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,Medium,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Challenging,Challenging,Favorable,'24 - 36 Months',No,Yes,Minor,High,Low,Medium,Low,Go
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Feasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,High,High,High,NoGo
+Medium,Feasible,Challenging,Favorable,'24 - 36 Months',No,Yes,Minor,High,High,High,High,Go
+'High ',Feasible,Challenging,Favorable,'12 - 24 Months',Yes,Yes,None,Low,Low,High,High,Go
+'High ',Unfeasible,Feasible,Favorable,'Less than 6  Months',Yes,Yes,Minor,Medium,Medium,Medium,High,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,Medium,Low,High,Go
+Medium,Challenging,Feasible,Favorable,'24 - 36 Months',Yes,Yes,None,Medium,High,High,High,Go
+Medium,Unfeasible,Feasible,Favorable,'6 - 12 Months',No,Yes,Minor,Low,Medium,High,Low,Go
+'High ',Unfeasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Major,Medium,Medium,High,Medium,Go
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,Medium,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Challenging,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,High,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Low,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',Yes,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Challenging,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,High,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Low,Medium,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',Yes,No,Major,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+Low,Unfeasible,Challenging,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,High,Medium,Go
+Low,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Low,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',Yes,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Challenging,Favorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Medium,Go
+'High ',Feasible,Feasible,Favorable,'12 - 24 Months',No,Yes,Minor,Medium,High,Medium,High,Go
+Medium,Feasible,Feasible,Favorable,'Less than 6  Months',Yes,Yes,Minor,Low,Low,Low,Medium,Go
+'High ',Feasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,None,Medium,Low,Medium,High,Go
+'High ',Feasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Major,Medium,Low,High,High,Go
+'High ',Feasible,Feasible,Favorable,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+'High ',Feasible,Feasible,Favorable,'6 - 12 Months',Yes,Yes,Minor,Medium,Medium,Low,Low,Go
+Low,Feasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Minor,High,Medium,High,High,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Medium,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,High,High,Medium,Go
+Low,Feasible,Feasible,Favorable,'12 - 24 Months',Yes,Yes,None,Medium,Medium,Medium,High,Go
+Low,Feasible,Challenging,Favorable,'24 - 36 Months',Yes,Yes,Minor,Low,Medium,High,High,Go
+Low,Feasible,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Low,Low,Medium,Medium,Go
+Low,Feasible,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,High,High,Low,Go
+Low,Feasible,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Major,High,Medium,Medium,High,Go
+Low,Feasible,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Low,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Medium,Medium,Medium,Medium,Go
+Low,Feasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,High,High,High,NoGo
+Low,Feasible,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Minor,High,High,High,High,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Low,Medium,Low,Medium,Go
+Low,Challenging,Challenging,Neutral,'Above  48 Months',Yes,Yes,Minor,Low,Low,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,Low,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,High,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Low,Medium,Go
+Low,Challenging,Challenging,Neutral,'12 - 24 Months',Yes,Yes,Minor,High,Low,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,High,Low,High,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Major,High,Medium,Medium,Low,Go
+Low,Challenging,Challenging,Neutral,'12 - 24 Months',Yes,Yes,Major,Medium,Low,High,Low,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,Medium,High,High,Go
+Low,Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,Medium,Low,Medium,Medium,NoGo
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Major,Medium,Medium,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,High,High,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Medium,Medium,High,High,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Medium,Medium,Low,High,Go
+Low,Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Low,Low,High,NoGo
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Major,Medium,Low,Low,Medium,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,Low,Medium,Medium,Go
+Low,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Medium,High,Medium,Low,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,Medium,Low,Low,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Major,Medium,Medium,Low,High,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Minor,Medium,Medium,High,Low,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,None,Low,Medium,High,Medium,Go
+Low,Challenging,Feasible,Neutral,'6 - 12 Months',Yes,Yes,Minor,Medium,Low,Low,Medium,Go
+Low,Challenging,Challenging,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,High,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,Yes,Major,Low,High,High,Low,Go
+Low,Challenging,Challenging,Neutral,'24 - 36 Months',Yes,No,None,High,High,High,Low,Go
+Low,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,None,Medium,High,High,High,Go
+Medium,Feasible,Challenging,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'24 - 36 Months',No,Yes,None,Low,Low,High,High,Go
+Medium,Feasible,Challenging,Neutral,'24 - 36 Months',No,Yes,None,Low,High,High,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,Medium,High,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Feasible,Feasible,Neutral,'Above  48 Months',No,Yes,None,Medium,High,High,Medium,Go
+Medium,Feasible,Challenging,Neutral,'24 - 36 Months',No,Yes,None,Low,High,High,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,Medium,High,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,None,Low,High,High,Medium,Go
+Medium,Feasible,Challenging,Neutral,'24 - 36 Months',No,Yes,None,Medium,High,High,Medium,Go
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,High,Medium,Low,NoGo
+Medium,Challenging,Feasible,Neutral,'24 - 36 Months',Yes,Yes,Minor,Low,Medium,High,High,Go
+Medium,Challenging,Feasible,Neutral,'Less than 6  Months',Yes,Yes,Minor,Medium,Medium,Medium,High,Go
+Medium,Feasible,Feasible,Neutral,'12 - 24 Months',Yes,Yes,Minor,Medium,Medium,Low,High,Go
+Medium,Feasible,Unfeasible,Neutral,'6 - 12 Months',Yes,No,Major,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'24 - 36 Months',No,Yes,Major,Medium,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,High,Low,High,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,Yes,Major,Medium,Low,Medium,Medium,NoGo
+Medium,Challenging,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,Medium,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Challenging,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Major,Medium,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Major,Medium,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Low,Medium,Medium,NoGo
+'High ',Challenging,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Major,Medium,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Challenging,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Challenging,Unfeasible,Neutral,'36 - 48 Months',No,No,Minor,Medium,Low,Low,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Challenging,Feasible,Neutral,'Less than 6  Months',No,No,Minor,Medium,Low,High,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Major,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,No,Minor,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'12 - 24 Months',No,No,Minor,High,Medium,Low,Medium,NoGo
+'High ',Challenging,Feasible,Neutral,'36 - 48 Months',No,Yes,Major,Medium,Low,Low,Low,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Major,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'Less than 6  Months',Yes,No,Minor,Medium,Medium,Medium,Low,NoGo
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',No,No,Minor,Medium,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,No,Major,Medium,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Major,High,Medium,Medium,Medium,NoGo
+Medium,Challenging,Feasible,Neutral,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Neutral,'24 - 36 Months',No,Yes,Major,Medium,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,Yes,Minor,High,Low,Medium,Low,NoGo
+'High ',Challenging,Feasible,Neutral,'36 - 48 Months',No,Yes,Major,Medium,Low,Low,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Challenging,Feasible,Neutral,'36 - 48 Months',No,Yes,Major,Medium,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Neutral,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,Medium,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+Low,Feasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,High,High,High,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'12 - 24 Months',No,Yes,Minor,High,Low,Low,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
+Low,Unfeasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Major,High,Medium,Low,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Minor,High,Low,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',Yes,No,Major,High,Low,Low,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Low,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,Yes,Minor,High,Medium,Medium,Low,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',Yes,No,Minor,Medium,Medium,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Major,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Feasible,Unfavorable,'12 - 24 Months',No,No,Major,Medium,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Medium,Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Low,Medium,Medium,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'Less than 6  Months',Yes,No,Minor,High,Low,Low,Medium,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,High,NoGo
+Low,Feasible,Unfeasible,Unfavorable,'36 - 48 Months',No,Yes,Minor,High,High,High,High,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'36 - 48 Months',No,No,Minor,Medium,Low,Medium,Medium,NoGo
+Low,Challenging,Unfeasible,Unfavorable,'12 - 24 Months',No,No,Minor,High,Medium,Medium,High,NoGo
+'High ',Unfeasible,Unfeasible,Unfavorable,'24 - 36 Months',No,No,Minor,High,Medium,Medium,Medium,NoGo
+'High ',Challenging,Unfeasible,Neutral,'24 - 36 Months',Yes,No,Major,High,Low,Medium,Low,NoGo
